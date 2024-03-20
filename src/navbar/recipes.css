@@ -1,0 +1,382 @@
+.images {
+    width: 100%;
+    object-fit: cover;
+  }
+  .box {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 15px 0;
+  }
+  .box p {
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    
+  }
+  .all-rec {
+    padding: 50px 0;
+  }
+  .box p {
+    padding: 10px 0px;
+    margin: 0;
+  }
+  .heading h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #274de5;
+  }
+  
+  /* single recipe page */
+ 
+  section.singlepage-section {
+    text-align: center;
+}
+
+.singlepage-section a {
+  padding: 2px 10px;
+  margin: 10px 0px;
+  color: white;
+  background-color: mediumpurple;
+}
+.recipe-image img {
+  width: 100%;
+  max-width: 500px;
+  object-fit: cover;
+  
+}
+span.recipes-tag {
+  background: bisque;
+  padding: 2px 5px;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px 5px;
+}
+.recipe-inner {
+  padding: 15px 0px;
+}
+  
+
+ /* 
+  .SinglePage img {
+    width: 100%;
+    max-width: 500px;
+    object-fit: cover;
+  }
+  .SinglePage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+  }
+  .recipe-inner {
+    padding: 15px 0;
+}
+  .recipe-inner h3 {
+    font-family: fantasy;
+    font-size: 35px;
+    color: black;
+  }
+  .quality {
+    font-family: serif;
+    color: black;
+  }
+  .quality h5 {
+    font-size: 20px;
+    color: darkblue;
+  }
+  
+  .quality p {
+    font-size: 12px;
+}*/
+  
+  /* carousel page  */
+  .abc img {
+    width: 100%;
+    max-height: 470px;
+    object-fit: cover;
+  }
+
+  /* about css */
+  #aboutus {
+    font-size: 20px;
+    text-align: center;
+    margin: 4px 5px;
+    padding: 40px 155px;
+    font-family: serif;
+}
+h3.about-head.text-center {
+  margin: 15px 0;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.section-1 {
+  margin-top: 50px;
+}
+
+/* Contact Form Styles */
+.cont {
+  padding: 0px 40px;
+}
+#contacth {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+#contactForm {
+  border: 2px solid black;
+  padding: 30px 30px;
+  border-radius: 20px;
+  background: #7d594cc4;
+}
+.inner-row {
+  margin-top: 70px;
+}
+.sec1 img {
+  width: 100%;
+  border-radius: 20px;
+  max-height: 540px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.nav_button {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cus-btn {
+  border: 2px solid black;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 28px;
+  color: white;
+background-color:#373342;
+  transition: all 0.4s;
+  text-decoration: none;
+}
+.head1 h3 {
+  padding: 18px 85px;
+  font-size: 32px;
+  background-color: black;
+  color: white;
+font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+
+}
+.head2 {
+  background-color: whitesmoke;
+  padding: 15px 0;
+margin-top: -10px;
+}
+.form-control{
+  border:1px solid black !important;
+}
+.form-group {
+  padding: 10px 0;
+}
+.form-fild {
+  text-align: center;
+  padding-top: 10px;
+}
+.form-fild input {
+  padding: 10px 160px 10px 10px;
+    font-size: 20px;
+}
+.form-fild textarea {
+  width: 86%;
+  font-size: 18px;
+  padding: 12px 17px;
+}
+.form-fild2 {
+  text-align: center;
+  padding-top: 20px;
+}
+.form-fild2 input {
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  background-color: #466ab0;
+  color: white;
+  padding: 10px 165px;
+}
+
+/* Make form look nice on smaller screens */
+@media only screen and (max-width: 580px) {
+  #contact-form{
+     left: 3%;
+     margin-right: 3%;
+     width: 88%;
+     margin-left: 0;
+     padding-left: 3%;
+     padding-right: 3%;
+  }
+}
+
+/* footer css */
+
+.site-footer
+{
+  background-color:#cc9eed;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:black;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#709bf0;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a {
+  color: #737373;
+  text-decoration: none;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:white;
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}

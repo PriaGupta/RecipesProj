@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+body {
+    height: 70vh;
+}
+
+.panel-heading {
+    text-align: center;
+    margin-bottom: 10px
+}
+.panel-heading h3 {
+    color: #3f2be2;
+    font-weight: 600;
+    padding-top: 10px;
+    font-family: emoji;
+}
+
+#forgot {
+    min-width: 100px;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.form-inline label {
+    padding-left: 10px;
+    margin: 0;
+    cursor: pointer
+}
+
+.bttn {
+    text-align: center;
+}
+
+.bttn button{
+    border: none;
+    background-color: #103ce9d9;
+    font-size: 18px;
+    width: 50%;
+    border-radius: 20px;
+    color: white;
+}
+.panel {
+    min-height: 380px;
+    box-shadow: 20px 20px 80px rgb(218, 218, 218);
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.input-field {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+.form-label-three{
+    font-size: 20px;
+    color: black;
+    margin-right: 5px;
+
+}
+.form-label-one {
+    font-size: 20px;
+    color: black;
+    margin-right: 50px;
+
+}
+.form-label-two {
+    font-size: 20px;
+    color: black;
+    margin-right: 10px;
+}
+input[type='email'], 
+input[type='text'],
+input[type='password'] {
+    
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 12px;
+    outline: none;
+}
+
+.form-inline {
+    display: flex;
+    padding-bottom: 10px;
+}
+.logincss {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative
+}
+
+a[target='_blank'] {
+    position: relative;
+    transition: all 0.1s ease-in-out
+}
+
+.bordert {
+    border-top: 1px solid #aaa;
+    position: relative
+}
+
+.bordert:after {
+   
+    position: absolute;
+    top: -13px;
+    left: 33%;
+    background-color: #fff;
+    padding: 0px 8px
+}
+
+@media(max-width: 360px) {
+    #forgot {
+        margin-left: 0;
+        padding-top: 10px
+    }
+
+    body {
+        height: 100%
+    }
+
+    /* .container {
+        margin: 30px 0
+    } */
+
+    .bordert:after {
+        left: 25%
+    }
+}

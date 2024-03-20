@@ -1,0 +1,31 @@
+.all {
+        background: radial-gradient(circle, rgba(131,58,180,0.6138839935388218) 0%, rgba(253,29,29,0.3981977190290179) 75%, rgba(253,87,45,0.4262089235108105) 82%, rgba(252,176,69,0.5914750299533876) 100%);
+}
+
+.navbar-nav {
+    gap: 50px; 
+}
+.logo {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 70px;
+    object-fit: cover;
+}
+.nav-item {
+    padding-right: 25px;
+    font-size: 22px;
+	font-weight:700;
+}
+.nav-item a{
+    color: white;
+    font-weight: bold;
+}
+.nav-item a:hover{
+    color: black;
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
+}}
