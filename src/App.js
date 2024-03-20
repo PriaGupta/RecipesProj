@@ -1,6 +1,6 @@
 import Navbar from'./Navbar';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import {Home} from './navbar/Home';
+// import {Home} from './navbar/Home';
 import Login from "./pages/Login";
 import About from './navbar/About';
 import Recipes from './navbar/Recipes';
@@ -18,15 +18,17 @@ function App() {
     {/* call navbar & footer outside the routes to show them fixed */}
     <Navbar/> 
     <Routes> 
-      {/* <Route exact path='/' element={<Recipes/>}/> */}
+
+      <Route exact path='/' element={<Recipes/>}/>
       <Route path='/login' element={<Login/>}/>
-      <Route path='/' element={<Home/>}/>
+      {/* <Route path='/home' element={<Home/>}/> */}
       <Route path='/about' element={<About/>}/>
-      <Route path='/recipees' element={<Recipes/>}/>
+      {/* <Route path='/recipees' element={<Recipes/>}/> */}
       <Route path='/singlerecipepage/:id' element={<SinglePageRec/>}/>
       <Route path='/contact' element={<Contact/>}/> 
    </Routes>
-   <Footer/>
+   <Footer/> 
+   
     </BrowserRouter>
 </>
   );

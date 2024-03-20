@@ -31,12 +31,11 @@ const Navbar= () =>{
     </button>
     <div class="navbar-collapse collapse" id="navbarSupportedContent" >
       <ul class="navbar-nav">
-      <li class="nav-item">
-         <Link class="nav-link" to='/'>Home</Link></li>
+      
           <li class="nav-item">
          <Link class="nav-link" to='/login'>Login</Link></li>
         <li class="nav-item">
-          <Link class="nav-link" to='/recipes'>Recipes</Link></li>
+          <Link class="nav-link" to='/'>Recipes</Link></li>
         <li class="nav-item">
           <Link class="nav-link" to='/about'>About</Link></li>
         <li class="nav-item">
