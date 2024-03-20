@@ -19,7 +19,7 @@ function App() {
     <Navbar/> 
     <Routes> 
 
-      <Route exact path='/' element={<Recipes/>}/>
+      <Route exact path='/Rec' element={<Recipes/>}/>
       <Route path='/login' element={<Login/>}/>
       {/* <Route path='/home' element={<Home/>}/> */}
       <Route path='/about' element={<About/>}/>
@@ -28,7 +28,7 @@ function App() {
       <Route path='/contact' element={<Contact/>}/> 
    </Routes>
    <Footer/> 
-   
+
     </BrowserRouter>
 </>
   );

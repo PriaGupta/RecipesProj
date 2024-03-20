@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams,Link } from 'react-router-dom'
 import './recipes.css';
+
 
 
 const SinglePageRec = () => {
@@ -23,7 +24,7 @@ const SinglePageRec = () => {
   return (
     <div>
       <section class="singlepage-section">
-        <a class="btn btn-primary" href="/">back</a>
+        <Link class="btn btn-primary" to="/Rec">back</Link>
         <h3 className='singlepage-heading'>{singleRecipe.name}</h3>
              <div className='recipe-image'>
               <img src={singleRecipe.image} alt=""/>
