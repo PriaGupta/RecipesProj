@@ -24,7 +24,7 @@ const SinglePageRec = () => {
   return (
     <div>
       <section class="singlepage-section">
-        <Link class="btn btn-primary" to="/Rec">back</Link>
+        <Link class="btn btn-primary" to="/Re">back</Link>
         <h3 className='singlepage-heading'>{singleRecipe.name}</h3>
              <div className='recipe-image'>
               <img src={singleRecipe.image} alt=""/>
