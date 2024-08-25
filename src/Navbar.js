@@ -9,20 +9,6 @@ const Navbar= () =>{
         
         <div className='all'>
         <div className='container'>
-        {/* <div className='nav-both'>
-         <div className='logo'>
-         <img src={ll} alt='foodlogo'/>
-         </div>
-         <div className='nav-inner'>
-            <ul>
-                <li><Link to='/login'>Login</Link></li>
-                <li><Link to='/'>Recipes</Link></li>
-                <li><Link to='/about'>About</Link></li>
-                <li><Link to='/contact'>Contact</Link></li>
-            </ul>
-         </div>
-        </div> */}
-
 <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
     <a class="navbar-brand" > <img src={ll} class="logo"/></a>

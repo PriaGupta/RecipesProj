@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { useParams,Link } from 'react-router-dom'
 import './recipes.css';
 
-
-
 const SinglePageRec = () => {
 
      const params=useParams()
@@ -24,7 +22,7 @@ const SinglePageRec = () => {
   return (
     <div>
       <section class="singlepage-section">
-        <Link class="btn btn-primary" to="/Re">back</Link>
+        <Link class="btn btn-primary" to="/">back</Link>
         <h3 className='singlepage-heading'>{singleRecipe.name}</h3>
              <div className='recipe-image'>
               <img src={singleRecipe.image} alt=""/>
@@ -43,32 +41,6 @@ const SinglePageRec = () => {
               <p><span className='recipes-tag'>Ratings: </span>{singleRecipe.rating}</p>
              </div>
 
-
-      {/* <div className='page'>
-        <div className='SinglePage'>
-      <img src={singleRecipe.image}/>
-      <div className='recipe-inner'>
-        <h3>{singleRecipe.name}</h3>
-        <div className='quality-all'>
-       <div className='quality'>
-        <h5>Cuisine:</h5>
-        <p> {singleRecipe.cuisine}</p>
-        <h5>MealType:</h5>
-        <p> {singleRecipe.mealType}</p>
-        <h5>Ingredients</h5>
-        {singleRecipe?.ingredients?.map((obj,index)=>{
-        console.log("obj",obj)
-        return(
-            <p>{obj}</p>
-        )
-       })} 
-      <h5>Rating: </h5>
-      <p>{singleRecipe.rating}</p>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div> */}
        </section>
     </div>
   )
